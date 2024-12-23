@@ -1,0 +1,66 @@
+# ICMP Demo
+
+This folder contains Python scripts that demonstrate the use of ICMP and ARP protocols using the `scapy` library. These hands-on examples are part of the networking fundamentals project.
+
+## Files in This Folder
+
+1. ** ICMPExample.py **  
+   A script to send ICMP Echo Requests (ping) to a target IP and display the response.
+
+   - **Features**:
+     - Sends ICMP packets to a target IP.
+     - Waits for a response and displays it.
+     - Demonstrates how ping works at the Internet Layer of the TCP/IP stack.
+
+   - **Usage**:
+     ```bash
+     python ICMPExample.py
+     ```
+     Enter the destination IP when prompted.
+
+   - **Example Output**:
+     ```
+     Enter the destination IP to ping: 8.8.8.8
+     Sending ICMP request to 8.8.8.8...
+     Received response from 8.8.8.8:
+     IP / ICMP 192.168.1.10 > 8.8.8.8 Echo Reply
+     ```
+
+2. **ARPExample.py**  
+   A script to craft and send ARP packets to a target IP and MAC address.
+
+   - **Features**:
+     - Creates ARP requests using `scapy`.
+     - Sends ARP packets at the Network Access Layer of the TCP/IP stack.
+
+   - **Usage**:
+     ```bash
+     python ARPExample.py
+     ```
+     Enter the target IP and MAC address when prompted.
+
+   - **Example Output**:
+     ```
+     Enter the target IP address: 192.168.1.5
+     Enter the target MAC address: 00:11:22:33:44:55
+     Sending ARP request to IP: 192.168.1.5, MAC: 00:11:22:33:44:55
+     ARP request sent successfully.
+     ```
+
+## Prerequisites
+
+- Python 3.x
+- The `scapy` library:
+  ```bash
+  pip install scapy
+
+
+
+## Why This Matters
+
+This documentation aims to provide:
+
+1. ** Clarity**: Explains the purpose and features of each file in the folder.
+2. ** Usage**: Offers step-by-step instructions for running the scripts effectively.
+3. ** Context**: Links the hands-on examples to networking concepts like ICMP and ARP protocols.
+4. ** Professionalism**: Demonstrates practical networking skills using Python and `scapy`, useful for understanding the Internet and Network Access Layers of the TCP/IP stack.
