@@ -1,6 +1,6 @@
 # Cloud-Networking-Projects
-"here i will try to put some of Hands-on that i did persoanlly or with university also support my knowledge with some GPTs "
 
+"here i will try to put some of Hands-on that i did persoanlly or with university also supported my knowledge with some GPTs"
 
 cloud-network-projects/
 ├── README.md                     # Main overview of the repository
@@ -21,3 +21,4 @@ cloud-network-projects/
 │   │   │   ├── README.md         # Overview of ICMP and ARP examples
 │   │   │   ├── ICMPExample.py    # Python script for ICMP example
 │   │   │   ├── ARPExample.py     # Python script for ARP example
+
