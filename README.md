@@ -18,7 +18,6 @@ This repository includes projects that explore fundamental networking concepts, 
 
 ## Folder Structure
 
-```plaintext
 cloud-network-projects/
 ├── tcp/ip-internet-network-layer/
 │   ├── README.md                     # Overview of the TCP/IP Internet and Network Access layers
